@@ -9,8 +9,9 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "types": ["jest", "node"],
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
+      "@smart-home/device-service/*": ["packages/device-service/src/*"],
       "@smart-home/*": ["packages/*/src"]
     }
   },

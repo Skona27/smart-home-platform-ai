@@ -7,5 +7,6 @@ module.exports = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'json'],
   testMatch: ['**/?(*.)+(spec|test).ts'],
   collectCoverage: true,
-  rootDir: './packages', // Set root dir to 'packages' folder for consistency
+  rootDir: './packages',
+  setupFilesAfterEnv: [__dirname + '/jest.setup.ts'],
 };
