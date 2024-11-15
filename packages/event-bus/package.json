@@ -1,0 +1,20 @@
+{
+  "name": "@smart-home/event-bus",
+  "version": "1.0.0",
+  "description": "Reusable event bus client for Smart Home platform.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint 'src/**/*.ts' --fix"
+  },
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.1692.0"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "^6.2.0"
+  }
+}
